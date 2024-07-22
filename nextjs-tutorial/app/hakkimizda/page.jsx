@@ -4,6 +4,7 @@ import React from "react";
 /*
 Url'e hakkımızda yazdığımız zaman açılacak olan sayfadır.
 */
-export default function Hakkimizda(){
-    return <div>Hakkimizda Sayfası</div>;
+function Hakkimizda() {
+  return <div>Hakkimizda Sayfası</div>;
 }
+export default Hakkimizda;
