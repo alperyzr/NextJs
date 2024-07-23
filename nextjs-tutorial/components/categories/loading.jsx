@@ -1,5 +1,5 @@
 import React from "react";
-import { Skeleton } from "@/components/skeleton";
+import Skeleton  from "@/components/skeleton";
 import styles from "./styles.module.css";
 
 function CategoriesLoading() {
@@ -14,4 +14,4 @@ function CategoriesLoading() {
   );
 }
 
-export { CategoriesLoading };
+export default CategoriesLoading;

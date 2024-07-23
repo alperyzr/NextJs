@@ -35,11 +35,32 @@
 // }
 // export default Home;
 
-import React from 'react';
-import HomeContainer from '@/containers/home/index.jsx';
+import React from "react";
+import HomeContainer from "@/containers/home/index.jsx";
+import Movies from "@/mocks/movies.json";
 
-function Home(){
-  return <HomeContainer/>;
+async function Delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function HomePage({ params }) {
+  await Delay(2000);
+
+  let selectedCategory;
+
+  //params içerisindeki categoryler 0 dan büyükse herhangi bir kategory seçilmiş demektir.
+  if (params.category?.length > 0) {
+    selectedCategory = true;
   }
 
-export default Home;
+  return (
+    <HomeContainer
+      selectedCategory={{
+        id: params.category?.[0] ?? "",
+        movies: selectedCategory ? Movies.results.slice(14, 20) : [],
+      }}
+    />
+  );
+}
+
+export default HomePage;

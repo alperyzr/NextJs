@@ -1,6 +1,5 @@
 import React from "react";
-
-import { Skeleton } from "@/components/skeleton";
+import Skeleton from "@/components/skeleton/index.jsx";
 import styles from "./styles.module.css";
 
 function MoviesSectionLoading() {

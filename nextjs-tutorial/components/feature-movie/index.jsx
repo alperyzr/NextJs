@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaPlus } from "react-icons/fa";
 
-import styles from "../feature-movie/style.module.css";
+import styles from "../feature-movie/styles.module.css";
 
 //İsCompact true ise filmin açıklaması uzun demektir ve anasayfada metnin belli bir yerinden sonra üç nokta olarak şekilde gösterir.
 function FeaturedMovie({ movie = {}, isCompact = true }) {

@@ -1,7 +1,7 @@
 import React from "react";
-import { Loading } from "@/components/loading/index.jsx";
+import Loading from "@/components/loading";
 
-import styles from "@/components/feature-movie/style.module.css";
+import styles from "./styles.module.css";
 
 function FeatureMovieLoading() {
   return (
@@ -11,4 +11,4 @@ function FeatureMovieLoading() {
   );
 }
 
-export default FeatureMovieLoading ;
+export default FeatureMovieLoading;
