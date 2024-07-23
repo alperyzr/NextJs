@@ -25,10 +25,10 @@ Geliştirme sunucusunu başlatın:
 npm run dev
 
 
-İletişim
+İletişim:
 Bu proje hakkında herhangi bir sorunuz olursa, lütfen bana alperyzrr@gmail.com adresinden ulaşın.
 
-Bu yapıyı ve içeriği takip ederek, projenizi GitHub'da ziyaret eden herkesin projeyi kolayca anlayabilmesini ve kullanabilmesini sağlayabilirsiniz.
+
 
 
 
