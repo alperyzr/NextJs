@@ -23,7 +23,7 @@ function Header() {
         <nav className={styles.navigationMenu}>
           <Link href="/">Movie</Link>
           <Link href="/">Series</Link>
-          <Link href="/">Lids</Link>
+          <Link href="/">Kids</Link>
         </nav>
       </div>
     </header>

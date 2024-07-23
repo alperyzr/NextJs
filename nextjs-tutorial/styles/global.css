@@ -21,3 +21,7 @@ body {
   .container > .fluid {
     grid-column: 1 / -1;
   }
+
+  div[data-nextjs-focus-boundary]{
+    height: 100v;
+  }
